@@ -10,12 +10,12 @@ public class prime {
                 count++;
             }
         }
-        /*if(count==2){
+        if(count==2){
             System.out.println("Prime number");
         }
         else{
             System.out.println("Not Prime number");
-        } */
+        } 
     }
     
 }

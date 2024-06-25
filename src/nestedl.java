@@ -1,14 +1,23 @@
+import java.util.Scanner;
+
 public class nestedl {
     public static void main(String[] args) {
-        for(int i=0;i<=100;i++){
-            if(i%2==0){
-                System.out.println("prime");
-                if (i==prime)
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the number");
+        int n=sc.nextInt();
+        int a=0;
+        for(int i=1;i<=n;i++){
+            if(n%i==0){
+                a++;
             }
+
+        }
+        if (a==2){
+            System.out.println(n+" is prime number");
+        }
+       
             else{
-                System.out.println("not prime");
+                System.out.println(n+" is not prime");
             }
         }
     }
-    
-}
