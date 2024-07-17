@@ -34,6 +34,7 @@ public class days {
             break;
         }
         System.out.println("the day is: "+Name);
+        sc.close();
 
     }
     

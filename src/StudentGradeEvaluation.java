@@ -40,6 +40,6 @@ public class StudentGradeEvaluation {
         System.out.println("Score: " + score);
         System.out.println("Grade: " + grade);
 
-       
+       scanner.close();
     }
 }
