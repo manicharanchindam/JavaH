@@ -41,4 +41,14 @@ public static void main(String[] args) {
    
     sc.close();
 }
+
+public static void sort(int[] arr) {
+    // TODO Auto-generated method stub
+    throw new UnsupportedOperationException("Unimplemented method 'sort'");
+}
+
+public static char[] toString(int[] arr) {
+    // TODO Auto-generated method stub
+    throw new UnsupportedOperationException("Unimplemented method 'toString'");
+}
 }
